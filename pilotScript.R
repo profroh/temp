@@ -5,6 +5,4 @@
 
 library('ggplot2')
 
-#plot()의 삭제.
-
-summary(iris)
+plot(iris[, 1:2])
